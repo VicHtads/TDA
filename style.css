@@ -12,6 +12,7 @@ body {
     border: 25px solid lightseagreen;
     padding: 0;
     overflow: hidden; 
+    border-radius: 8px;
 }
 
 header {
@@ -32,9 +33,10 @@ header h1 {
 
 nav {
     width: 200px;
-    background-color: #d3d3d3; 
+    background-color: #a5ced3; 
     padding: 20px;
     height: 100%;
+    border-radius: 8px;
 }
 
 nav ul {
@@ -106,6 +108,7 @@ textarea {
     border: 1px solid #a9a9a9;
     cursor: pointer;
     font-size: 1em;
+    border-radius: 4px;
 }
 
 .input-arquivo {
@@ -124,7 +127,7 @@ textarea {
 }
 
 .caixa-info {
-    background-color: lightgrey;
+    background-color: rgb(184, 201, 201);
     color: black;
     margin: 50px;
     padding: 20px;
@@ -135,4 +138,5 @@ textarea {
     align-items: center;
     justify-content: center;
     font-size: 1.1em;
+    border-radius: 8px;
 }
